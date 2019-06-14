@@ -1,0 +1,22 @@
+body {
+  background: grey;
+}
+#title {
+  margin: auto;
+  text-align: center;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+}
+#editor {
+  height: 95vh;
+  width: 50vw;
+  overflow: auto;
+}
+#preview {
+  height: 95vh;
+  width: 50vw;
+  background: white;
+  overflow: auto;
+}
